@@ -22,7 +22,7 @@ function App() {
     <div className="profile-card">
       
       <img
-        src="\public\image.png"   
+        src="https://ibb.co/2YLxnrJN"   
         alt="Profile"
         className="profile-picture"
         data-testid="profilePicture"
