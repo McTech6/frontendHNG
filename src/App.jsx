@@ -1,4 +1,5 @@
 import  { useState, useEffect } from "react";
+import profilePic from './assets/main.jpg';
 import "./App.css";
 
 function App() {
@@ -21,12 +22,7 @@ function App() {
   return (
     <div className="profile-card">
       
-      <img
-        src="https://ibb.co/2YLxnrJN"   
-        alt="Profile"
-        className="profile-picture"
-        data-testid="profilePicture"
-      />
+    <img src={profilePic} alt="Profile" className="profile-picture" data-testid="profilePicture" />
 
        
       <h1 className="full-name" data-testid="fullName">
